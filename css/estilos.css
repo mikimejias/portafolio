@@ -1,0 +1,112 @@
+a
+{
+	color: #22BCE0;
+}
+
+body
+{
+	background: #FAFAFA;
+	font-family: Arial;
+	font-size: 16px;
+}
+
+footer
+{
+	background: #22BCE0;
+	color: white;
+	text-align: center;
+	padding: 1em;
+}
+
+footer p:first-child
+{
+	margin-bottom: 0;
+}
+
+footer p:last-child
+{
+	margin-top: 0;
+}
+
+footer p:last-child:after
+{
+	content: " -";
+}
+
+footer p:last-child:before
+{
+	content: "- ";
+}
+
+header
+{
+	background: #B8B8B8;
+	color: white;
+	border: 1px solid black;
+	overflow: hidden;
+	position: relative;
+}
+
+header figure
+{
+	float: left;
+}
+
+header h1
+{
+	font-size: 2em;
+	font-weight: normal;
+	border: 1px solid black;
+}
+
+header .avatar
+{
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+header .avatar img
+{
+	width: 55px;
+	height: 55px;
+	border-radius: 50%;
+	border: 1px solid black;
+}
+
+header .logo img
+{
+	width: 52px;
+	height: 52px;
+	border-right: 1px solid white;
+	padding-right: 0.5em;
+	margin-right: 0.5em;
+	border: 1px solid black;
+}
+
+nav
+{
+	background: #1FDDCA;
+	padding: 0 0.5em;
+}
+
+nav ul
+{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav ul li
+{
+	display: inline-block;
+	margin: 0 1.2em 0 0;
+}
+
+nav ul li a
+{
+	color: white;
+	display: block;
+	padding: 0.5em 0;
+	text-decoration: none;
+}
